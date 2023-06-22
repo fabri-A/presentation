@@ -10,6 +10,9 @@ h1{
   .sobremi{
     text-align: center;
   }
+  h4{
+    text-align: center;
+  }
   .foto{
     width: 150px;
     height:150px;
@@ -61,23 +64,41 @@ h1{
     margin: 20px;
     transition: all 2s;
   }
-  .container{
-    margin-left: 0px;
-    margin-right: 0px;
+  .masSobreMi{
+    text-align: center;
   }
-  .nav-link{
-    color:white;
-    transition: none;
+  .estudios{
+    text-align: center;
   }
-  .nav-pills .nav-link{
-    background-color: rgb(78, 78, 78);
+  .row{
+    justify-content: center;
   }
-  .navbar{
-    background-color: #000000;
+  .imgHtml{
+      align-items: center;
+      width: 100%;
+      height: fit-content;
   }
-  .navbar-brand{
-    background-color: white;
-  }
+  .imgCss{
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+.imgJs{
+  align-items: center;
+  width: 100%;
+}
+.imgBp{
+  align-items: center;
+  width: 100%;
+}
+.imgGit{
+  align-items: center;
+  width: 100%;
+}
+.imgGitHub{
+  align-items: center;
+  width: 100%;
+}
 .whatsapp {
   position:fixed;
   width:60px;
@@ -106,7 +127,7 @@ h1{
 @media (min-width:1024px){
   .hablandosobremi{
     text-align: center;
-    font-size: 17px;}
+    font-size: 20px;}
 }
 
 footer {
@@ -130,6 +151,7 @@ footer {
   .instagram{
     background-color:#000000;
     color:#ffffff;
+    margin: 10px;
     border-radius:50px;
     text-align:center;
     font-size:20px;
@@ -138,6 +160,7 @@ footer {
   .linkedin{
     background-color:#000000;
     color:#ffffff;
+    margin: 10px;
     border-radius:50px;
     text-align:center;
     font-size:20px;
